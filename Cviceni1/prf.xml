@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fakulta SYSTEM "fakulta.dtd">
+<fakulta děkan="Prof. RNDr. Jiří Novák, CSc.">
+    <katedra zkratka_katedry="KBI" webové_stránky="https://www.ujep.cz/cs/kbi">
+        <vedoucí>
+            <jméno>Doc. RNDr. Eva Hrůzová, Ph.D.</jméno>
+            <email>eva.hruzova@ujep.cz</email>
+        </vedoucí>
+        <zaměstnanci>
+            <zaměstnanec>
+                <jméno>RNDr. Petr Nový, Ph.D.</jméno>
+                <email>petr.novy@ujep.cz</email>
+                <pozice><docent></docent></pozice>
+            </zaměstnanec>
+        </zaměstnanci>
+        <předměty>
+            <předmět zkratka="BIO1" typ="přednáška">
+                <název>Obecná biologie</název>
+                <popis>Základy biologie.</popis>
+            </předmět>
+        </předměty>
+    </katedra>
+</fakulta>
