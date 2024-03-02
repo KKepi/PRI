@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<student>
+    <jmeno>A</jmeno>
+    <prijmeni>B</prijmeni>
+    <student-id>1</student-id>
+    <fakulta>PRF</fakulta>
+
+</student>
+

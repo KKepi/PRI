@@ -1,0 +1,5 @@
+<!ELEMENT student (jmeno, prijmeni, student-id, fakulta)>
+<!ELEMENT jmeno (#PCDATA)>
+<!ELEMENT prijmeni (#PCDATA)>
+<!ELEMENT student-id (#PCDATA)>
+<!ELEMENT fakulta (#PCDATA)>

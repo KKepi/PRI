@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<univerzita>
+    <studenti>
+        <student>
+            <jmeno>A</jmeno>
+            <prijmeni>B</prijmeni>
+            <studentske-cislo>1</studentske-cislo>
+            <email>a@b.cz</email>
+            <studijni-rok>2024</studijni-rok>
+            <rozvrh>
+                <pondeli></pondeli>
+                <utery></utery>
+                <streda></streda>
+                <ctvrtek></ctvrtek>
+                <patek></patek>
+            </rozvrh>
+            <splnene-predmety>
+                <rok-2024></rok-2024>
+            </splnene-predmety>
+        </student>
+    </studenti>
+
+    <fakulty>
+        <fakulta>
+            <dekan></dekan>
+            <katedry>
+                <katedra>
+                    <vedouci-katedry></vedouci-katedry>
+                    <zamestnanci>
+                        <zamestnanec>
+                            <jmeno></jmeno>
+                            <prijmeni></prijmeni>
+                            <email></email>
+                            <pozice></pozice>
+                            <titul></titul>
+                            <vyucovane-predmety></vyucovane-predmety>
+                        </zamestnanec>
+                    </zamestnanci>
+                </katedra>
+            </katedry>
+        </fakulta>
+    </fakulty>
+</univerzita>
