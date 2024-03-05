@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<student>
+    <jmeno>A</jmeno>
+    <prijmeni>B</prijmeni>
+    <studentid>1</studentid>
+    <fakulta>PRF</fakulta>
+
+</student>
+

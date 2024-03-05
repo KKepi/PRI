@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fakulta.css"?>
+<?xml-stylesheet type="text/xsl" href="fakulta.xsl"?>
+<fakulta děkan="Jan Novák">
+  <katedra zkratka_katedry="KIV" webové_stránky="http://www.kiv.zcu.cz">
+    <vedoucí>
+      <jméno>Petr Svetr</jméno>
+      <email>svetr@kiv.zcu.cz</email>
+    </vedoucí>
+    <zaměstnanci>
+      <zaměstnanec>
+        <jméno>Anna Práce</jméno>
+        <email>aprace@kiv.zcu.cz</email>
+        <pozice>
+          <docent/>
+        </pozice>
+      </zaměstnanec>
+      <!-- Další zaměstnanci mohou být přidáni zde -->
+    </zaměstnanci>
+    <předměty>
+      <předmět zkratka="PGR" typ="Povinný">
+        <název>Programování grafiky</název>
+        <popis>Základy programování 2D a 3D grafiky.</popis>
+      </předmět>
+      <!-- Další předměty mohou být přidáni zde -->
+    </předměty>
+  </katedra>
+  <!-- Další katedry mohou být přidány zde -->
+</fakulta>
