@@ -1,0 +1,33 @@
+student {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+jmeno, prijmeni, student-id, fakulta {
+    display: block;
+    margin: 5px 0;
+}
+
+jmeno:before {
+    content: "Jméno: ";
+    font-weight: bold;
+}
+
+prijmeni:before {
+    content: "Příjmení: ";
+    font-weight: bold;
+}
+
+studentid:before {
+    content: "Student ID: ";
+    font-weight: bold;
+}
+
+fakulta:before {
+    content: "Fakulta: ";
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="fakulta">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="katedra" minOccurs="1" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="vedoucí">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="jméno" type="xsd:string"/>
+                    <xsd:element name="email" type="xsd:string"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="zaměstnanci">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="zaměstnanec" minOccurs="0" maxOccurs="unbounded">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="jméno" type="xsd:string"/>
+                          <xsd:element name="email" type="xsd:string"/>
+                          <xsd:element name="pozice">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="docent" minOccurs="0"/>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="předměty">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="předmět" minOccurs="1" maxOccurs="unbounded">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="název" type="xsd:string"/>
+                          <xsd:element name="popis" type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="zkratka" type="xsd:string" use="required"/>
+                        <xsd:attribute name="typ" type="xsd:string" use="required"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="zkratka_katedry" type="xsd:string" use="required"/>
+            <xsd:attribute name="webové_stránky" type="xsd:anyURI" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="děkan" type="xsd:string" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>
